@@ -24,10 +24,11 @@ CREATE TABLE Departments(
     Name NVARCHAR(20) Not Null,
     CHECK(Length(Name)>2),
 )
-INSERT INTO Employees VALUES (1,'Employee1',1,'employee1@gmail.com')
-INSERT INTO Employees VALUES (2,'Employee2',2,'employee2@gmail.com')
-INSERT INTO Employees VALUES (3,'Employee3',3,'employee3@gmail.com')
-INSERT INTO Departments Values(1, 'Department1')
-INSERT INTO Departments Values(2, 'Department2')
-INSERT INTO Departments Values(3, 'Department3')
+-- INSERT INTO Employees VALUES (1,'Employee1',1,'employee1@gmail.com')
+-- INSERT INTO Employees VALUES (2,'Employee2',2,'employee2@gmail.com')
+-- INSERT INTO Employees VALUES (3,'Employee3',3,'employee3@gmail.com')
+-- INSERT INTO Departments Values(1, 'Department1')
+-- INSERT INTO Departments Values(2, 'Department2')
+-- INSERT INTO Departments Values(3, 'Department3')
+
 
